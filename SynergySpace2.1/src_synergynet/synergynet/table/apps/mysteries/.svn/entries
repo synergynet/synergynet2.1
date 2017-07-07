@@ -1,0 +1,77 @@
+10
+
+dir
+1125
+https://synergyspace.googlecode.com/svn/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mysteries
+https://synergyspace.googlecode.com/svn
+
+
+
+2010-06-28T11:10:19.900444Z
+1060
+j.a.mcnaughton87
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4e04e178-4c47-0410-8dc8-bf9f09d16d9e
+
+client
+dir
+
+common
+dir
+
+controller
+dir
+
+projector
+dir
+
+synergynetapplication.xml
+file
+
+
+
+
+2010-06-21T10:57:40.000000Z
+0c7839987a70ec07cbc82d726b76afd8
+2009-08-25T15:51:50.782290Z
+664
+iyadalagha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1093
+
+utils
+dir
+

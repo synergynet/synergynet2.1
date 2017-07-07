@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/messages
+END
+FileTransferComplete.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/messages/FileTransferComplete.java
+END
+FilePart.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/messages/FilePart.java
+END
+StartFileTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/messages/StartFileTransfer.java
+END
+EndFileTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/messages/EndFileTransfer.java
+END

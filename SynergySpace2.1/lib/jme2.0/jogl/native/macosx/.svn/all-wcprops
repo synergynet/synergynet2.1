@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/macosx
+END
+libjogl_awt.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/macosx/libjogl_awt.jnilib
+END
+libgluegen-rt.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/macosx/libgluegen-rt.jnilib
+END
+libjogl_cg.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/macosx/libjogl_cg.jnilib
+END
+libjogl.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/macosx/libjogl.jnilib
+END

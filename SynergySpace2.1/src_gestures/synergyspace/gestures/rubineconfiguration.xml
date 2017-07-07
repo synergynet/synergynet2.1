@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<algorithm
+		name="org.ximtec.igesture.algorithm.rubine.RubineAlgorithm">
+		<parameter name="MAHALANOBIS_DISTANCE">2000</parameter>
+		<parameter name="PROPABILITY">0.95</parameter>
+		<parameter name="FEATURE_LIST">
+			org.ximtec.igesture.algorithm.feature.F1,org.ximtec.igesture.algorithm.feature.F2,
+			org.ximtec.igesture.algorithm.feature.F4,
+			org.ximtec.igesture.algorithm.feature.F6,
+			org.ximtec.igesture.algorithm.feature.F7,org.ximtec.igesture.algorithm.feature.F8,
+			org.ximtec.igesture.algorithm.feature.F9,org.ximtec.igesture.algorithm.feature.F10,
+			org.ximtec.igesture.algorithm.feature.F11,org.ximtec.igesture.algorithm.feature.F12,
+			org.ximtec.igesture.algorithm.feature.F13,org.ximtec.igesture.algorithm.feature.F14,
+			org.ximtec.igesture.algorithm.feature.F15,org.ximtec.igesture.algorithm.feature.F16,
+			org.ximtec.igesture.algorithm.feature.F17,org.ximtec.igesture.algorithm.feature.F18,
+			org.ximtec.igesture.algorithm.feature.F19,org.ximtec.igesture.algorithm.feature.F20
+		</parameter>
+		<parameter name="MIN_DISTANCE">1</parameter>
+	</algorithm>
+	<parameter name="accuracy">0.0</parameter>
+	<parameter name="resultSetSize">2147483647</parameter>
+</configuration>

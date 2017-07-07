@@ -1,0 +1,178 @@
+10
+
+dir
+1125
+https://synergyspace.googlecode.com/svn/trunk/SynergySpace2.1
+https://synergyspace.googlecode.com/svn
+
+
+
+2010-10-01T14:56:34.477061Z
+1125
+malinxiao@hotmail.com
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4e04e178-4c47-0410-8dc8-bf9f09d16d9e
+
+.classpath
+file
+
+
+
+
+2010-07-07T15:50:22.000000Z
+7f31d599d074db249d599633f281f06b
+2010-07-02T14:01:01.142908Z
+1065
+ashatch@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9744
+
+.project
+file
+
+
+
+
+2010-06-21T10:54:22.000000Z
+aab977c894ed61ef15fcb56009606af7
+2010-01-25T11:44:11.161486Z
+878
+ashatch@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+656
+
+.settings
+dir
+
+Logfiles
+dir
+
+assets
+dir
+
+bin
+dir
+
+build
+dir
+
+doc
+dir
+
+docs
+dir
+
+lib
+dir
+
+log
+dir
+
+scenemonitor.cfg
+file
+
+
+
+
+2010-10-05T10:38:54.306000Z
+f04b68cca1cf0896d3fa24dfad8aa185
+2010-09-03T15:47:49.422997Z
+1120
+malinxiao@hotmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81
+
+src
+dir
+
+src_functionaltests
+dir
+
+src_gestures
+dir
+
+src_resources
+dir
+
+src_synergynet
+dir
+
+src_unittests
+dir
+
+tools
+dir
+

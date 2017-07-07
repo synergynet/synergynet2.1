@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/org/ankh/unfall/media/shaders
+END
+planet.frag.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/org/ankh/unfall/media/shaders/planet.frag.glsl
+END
+planet.vert.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/org/ankh/unfall/media/shaders/planet.vert.glsl
+END
+atmosphere.frag.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/org/ankh/unfall/media/shaders/atmosphere.frag.glsl
+END
+atmosphere.vert.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/org/ankh/unfall/media/shaders/atmosphere.vert.glsl
+END

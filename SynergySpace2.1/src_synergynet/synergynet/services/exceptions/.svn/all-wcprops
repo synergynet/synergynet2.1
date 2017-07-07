@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_synergynet/synergynet/services/exceptions
+END
+SynergyNetServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/services/exceptions/SynergyNetServiceException.java
+END
+ServiceNotRunningException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/services/exceptions/ServiceNotRunningException.java
+END
+CouldNotStartServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/services/exceptions/CouldNotStartServiceException.java
+END

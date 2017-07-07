@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/982/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages
+END
+BroadcastItemsMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/936/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/BroadcastItemsMessage.java
+END
+PostItemsMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/936/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/PostItemsMessage.java
+END
+UnicastSyncDataMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/936/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/UnicastSyncDataMessage.java
+END
+PostItemConstructionMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/936/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/PostItemConstructionMessage.java
+END
+BroadcastItemConstructionMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/936/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/BroadcastItemConstructionMessage.java
+END
+RequestSyncItemsMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/930/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/RequestSyncItemsMessage.java
+END

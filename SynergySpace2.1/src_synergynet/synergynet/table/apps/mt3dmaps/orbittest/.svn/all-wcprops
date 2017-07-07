@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/660/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mt3dmaps/orbittest
+END
+OrbitAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/659/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mt3dmaps/orbittest/OrbitAction.java
+END
+CameraFocusInputAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/659/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mt3dmaps/orbittest/CameraFocusInputAction.java
+END
+InputManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/659/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mt3dmaps/orbittest/InputManager.java
+END
+TestOrbitInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/660/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mt3dmaps/orbittest/TestOrbitInput.java
+END

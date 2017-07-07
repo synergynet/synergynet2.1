@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1041/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator
+END
+IndividualCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/IndividualCursor.java
+END
+AbstractMultiTouchSimulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1041/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/AbstractMultiTouchSimulator.java
+END
+SingleFingerSimCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/SingleFingerSimCursor.java
+END
+AbstractSimCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/AbstractSimCursor.java
+END
+TripleFingerSimCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/TripleFingerSimCursor.java
+END
+IMultiTouchSimulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/IMultiTouchSimulator.java
+END
+DoubleFingerSimCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/DoubleFingerSimCursor.java
+END
+AbstractDirectMultiTouchSimulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1041/trunk/SynergySpace2.1/src/synergyspace/mtinput/simulator/AbstractDirectMultiTouchSimulator.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem
+END
+AccurateOrthogonalTrianglePickResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/739/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/AccurateOrthogonalTrianglePickResults.java
+END
+AccuratePickingUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/696/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/AccuratePickingUtility.java
+END
+PickSystemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/PickSystemException.java
+END
+IJMEMultiTouchPicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/810/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/IJMEMultiTouchPicker.java
+END
+AccurateTrianglePickResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/AccurateTrianglePickResults.java
+END
+JMEMultiTouchPickSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/JMEMultiTouchPickSystem.java
+END
+PickedSpatial.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/PickedSpatial.java
+END
+PointSelectionTrianglePickResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/jme/pickingsystem/PointSelectionTrianglePickResults.java
+END

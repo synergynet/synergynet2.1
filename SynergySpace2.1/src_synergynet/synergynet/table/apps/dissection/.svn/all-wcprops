@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/805/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection
+END
+DissectionSolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/DissectionSolution.java
+END
+SolutionFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/SolutionFinder.java
+END
+dissection.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/dissection.png
+END
+synergynetapplication.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/650/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/synergynetapplication.xml
+END
+DissectionApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/805/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/DissectionApp.java
+END
+LogWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/LogWriter.java
+END
+quad.shape
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/651/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/quad.shape
+END
+DoubleClickFlip.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/DoubleClickFlip.java
+END
+tri.shape
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/651/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/dissection/tri.shape
+END

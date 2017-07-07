@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib
+END
+DrawableString.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/DrawableString.java
+END
+DrawableElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/DrawableElement.java
+END
+Pixels.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/Pixels.java
+END
+DrawableStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/DrawableStack.java
+END
+DrawableBackgroundColour.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/DrawableBackgroundColour.java
+END
+GraphicalSwitch.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/GraphicalSwitch.java
+END
+AnimatedBackground.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/AnimatedBackground.java
+END
+DrawableRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/gfxlib/DrawableRectangle.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1106/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry
+END
+ApplicationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/664/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/ApplicationInfo.java
+END
+ApplicationRegistryXMLReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/797/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/ApplicationRegistryXMLReader.java
+END
+ApplicationRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/664/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/ApplicationRegistry.java
+END
+NetworkRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/NetworkRegistry.java
+END
+ApplicationControlError.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/ApplicationControlError.java
+END
+ApplicationTaskManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/849/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/ApplicationTaskManager.java
+END
+DesktopTypeXMLReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/797/trunk/SynergySpace2.1/src_synergynet/synergynet/table/appregistry/DesktopTypeXMLReader.java
+END

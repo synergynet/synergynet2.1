@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Point.java
+END
+Colour.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Colour.java
+END
+Lighting.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Lighting.java
+END
+Scene.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Scene.java
+END
+OpticalProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/OpticalProperties.java
+END
+SceneObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/SceneObject.java
+END
+ShadowRay.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/ShadowRay.java
+END
+SceneLight.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/SceneLight.java
+END
+Ray.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Ray.java
+END
+Camera.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Camera.java
+END
+Vector.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Vector.java
+END
+CameraAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/CameraAnimation.java
+END
+RefractedRay.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/RefractedRay.java
+END
+RayHitInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/RayHitInfo.java
+END
+Light.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/scene/Light.java
+END

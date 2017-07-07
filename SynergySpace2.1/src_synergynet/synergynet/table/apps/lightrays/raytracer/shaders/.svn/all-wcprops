@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/shaders
+END
+PhongShader.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/shaders/PhongShader.java
+END
+Shader.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/shaders/Shader.java
+END
+PlaneShader.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/lightrays/raytracer/shaders/PlaneShader.java
+END

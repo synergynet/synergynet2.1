@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1022/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages
+END
+UnicastAlivePortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/UnicastAlivePortalMessage.java
+END
+UpdateContentPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/UpdateContentPortalMessage.java
+END
+PostItemsPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/PostItemsPortalMessage.java
+END
+RequestItemsPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/RequestItemsPortalMessage.java
+END
+TableDiscoveryPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/TableDiscoveryPortalMessage.java
+END
+UnicastSyncDataPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/UnicastSyncDataPortalMessage.java
+END
+ConnectTablePortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/ConnectTablePortalMessage.java
+END
+PostWorkspacePortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/PostWorkspacePortalMessage.java
+END
+RequestSyncItemsPortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/RequestSyncItemsPortalMessage.java
+END
+LockTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1022/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/LockTableMessage.java
+END
+ClearWorkspacePortalMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/networkmanager/messages/ClearWorkspacePortalMessage.java
+END

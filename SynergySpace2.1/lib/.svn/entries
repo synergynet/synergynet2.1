@@ -1,0 +1,85 @@
+10
+
+dir
+1125
+https://synergyspace.googlecode.com/svn/trunk/SynergySpace2.1/lib
+https://synergyspace.googlecode.com/svn
+
+
+
+2010-02-09T12:46:03.350624Z
+912
+malinxiao@hotmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4e04e178-4c47-0410-8dc8-bf9f09d16d9e
+
+SnuggleTex
+dir
+
+ant-1.7.1
+dir
+
+flickrj-1.1
+dir
+
+handwriting_recognition
+dir
+
+igesture-1.1
+dir
+
+jetty7
+dir
+
+jexcelapi
+dir
+
+jgn
+dir
+
+jmdns
+dir
+
+jme2.0
+dir
+
+jmephysics-2.1
+dir
+
+lumin
+dir
+
+pdf-renderer
+dir
+
+poi-3.2
+dir
+
+prefuse
+dir
+
+scene-monitor
+dir
+
+tjws-1.51
+dir
+
+video-fobs
+dir
+
+xstream-1.3
+dir
+

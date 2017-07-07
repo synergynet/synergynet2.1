@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers
+END
+CollectionSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/CollectionSerializer.java
+END
+FloatSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/FloatSerializer.java
+END
+MapSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/MapSerializer.java
+END
+ShortSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/ShortSerializer.java
+END
+LongSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/LongSerializer.java
+END
+FieldSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/FieldSerializer.java
+END
+ArraySerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/ArraySerializer.java
+END
+CharSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/CharSerializer.java
+END
+SimpleSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/SimpleSerializer.java
+END
+StringSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/StringSerializer.java
+END
+CustomSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/CustomSerializer.java
+END
+DoubleSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/DoubleSerializer.java
+END
+BeanSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/BeanSerializer.java
+END
+IntSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/IntSerializer.java
+END
+CustomSerialization.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/CustomSerialization.java
+END
+SerializationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/SerializationException.java
+END
+BooleanSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/BooleanSerializer.java
+END
+ByteSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/ByteSerializer.java
+END
+NonNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/NonNull.java
+END
+EnumSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/EnumSerializer.java
+END
+Serializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/Serializer.java
+END
+SerializableSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/utility/serializers/SerializableSerializer.java
+END

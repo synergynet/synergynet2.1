@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/999/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast
+END
+TestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast/TestClient.java
+END
+EncoderDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast/EncoderDecoder.java
+END
+ServiceDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast/ServiceDescription.java
+END
+TestServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast/TestServer.java
+END
+ServiceDiscoveryParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/multicast/ServiceDiscoveryParams.java
+END

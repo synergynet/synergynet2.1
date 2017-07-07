@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/tablecomms/messages/control
+END
+FromServerTableControlMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/tablecomms/messages/control/FromServerTableControlMessage.java
+END
+TableControlMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/tablecomms/messages/control/TableControlMessage.java
+END
+FromClientTableControlMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/tablecomms/messages/control/FromClientTableControlMessage.java
+END

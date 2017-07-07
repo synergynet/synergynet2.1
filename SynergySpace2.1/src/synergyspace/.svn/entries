@@ -1,0 +1,49 @@
+10
+
+dir
+1125
+https://synergyspace.googlecode.com/svn/trunk/SynergySpace2.1/src/synergyspace
+https://synergyspace.googlecode.com/svn
+
+
+
+2010-07-22T15:21:04.494410Z
+1091
+iyadalagha
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4e04e178-4c47-0410-8dc8-bf9f09d16d9e
+
+awt
+dir
+
+configure
+dir
+
+instrumentation
+dir
+
+jme
+dir
+
+mtinput
+dir
+
+net
+dir
+
+utils
+dir
+

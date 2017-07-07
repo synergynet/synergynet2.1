@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1121/trunk/SynergySpace2.1/src_synergynet/config
+END
+teachertableconfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1117/trunk/SynergySpace2.1/src_synergynet/config/teachertableconfiguration.xml
+END
+demotableconfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1121/trunk/SynergySpace2.1/src_synergynet/config/demotableconfiguration.xml
+END
+projectortableconfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/config/projectortableconfiguration.xml
+END
+controlledtableconfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/config/controlledtableconfiguration.xml
+END

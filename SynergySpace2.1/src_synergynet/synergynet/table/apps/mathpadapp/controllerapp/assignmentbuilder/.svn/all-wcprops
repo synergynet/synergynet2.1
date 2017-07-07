@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1023/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder
+END
+AssignmentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/AssignmentManager.java
+END
+AssignmentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/785/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/AssignmentBuilder.java
+END
+Assignment.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/Assignment.java
+END
+SettingsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/771/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/SettingsDialog.java
+END
+SendToDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/771/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/SendToDialog.java
+END
+AssignmentBuilderListenerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1023/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentbuilder/AssignmentBuilderListenerImpl.java
+END

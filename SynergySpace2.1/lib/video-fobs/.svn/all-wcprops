@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs
+END
+libfobs4jmf.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/libfobs4jmf.jnilib
+END
+jmf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/jmf.jar
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/readme.txt
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/license.txt
+END
+libfobs4jmf.jnilib_ppc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/libfobs4jmf.jnilib_ppc
+END
+fobs-jmepatch.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/fobs-jmepatch.jar
+END
+jmf.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/jmf.properties
+END
+fobs4jmf.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/video-fobs/fobs4jmf.dll
+END

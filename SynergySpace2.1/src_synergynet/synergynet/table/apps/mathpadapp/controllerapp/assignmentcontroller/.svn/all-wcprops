@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/778/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller
+END
+AssignmentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/AssignmentInfo.java
+END
+ResultList.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/771/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/ResultList.java
+END
+ViewAnswerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/771/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/ViewAnswerDialog.java
+END
+AssignmentControllerWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/AssignmentControllerWindow.java
+END
+AssignmentSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/AssignmentSession.java
+END
+ResultDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/778/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/ResultDialog.java
+END
+AssignmentListControlPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/771/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/AssignmentListControlPanel.java
+END
+ResultListControlPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/controllerapp/assignmentcontroller/ResultListControlPanel.java
+END

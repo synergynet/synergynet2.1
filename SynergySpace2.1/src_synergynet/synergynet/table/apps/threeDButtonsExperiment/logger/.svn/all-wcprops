@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/917/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger
+END
+DateTextWritter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/917/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/DateTextWritter.java
+END
+TrialLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/917/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/TrialLog.java
+END
+LogTextWritter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/917/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/LogTextWritter.java
+END
+LogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/912/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/LogListener.java
+END
+KeyPressRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/912/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/KeyPressRecord.java
+END
+ExcelWritter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/912/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/threeDButtonsExperiment/logger/ExcelWritter.java
+END

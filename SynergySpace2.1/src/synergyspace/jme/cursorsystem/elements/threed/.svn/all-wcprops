@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/810/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed
+END
+MultiTouchMoveZController.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/784/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchMoveZController.java
+END
+MultiTouchRotateXYController.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/784/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchRotateXYController.java
+END
+MultiTouchTransformableDrawableElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/739/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchTransformableDrawableElement.java
+END
+MultiTouchButtonPress.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/795/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchButtonPress.java
+END
+ControlPointRotateTranslateScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/810/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/ControlPointRotateTranslateScale.java
+END
+MultiTouchMoveableXYPlane.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchMoveableXYPlane.java
+END
+MultiTouchRotateZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchRotateZ.java
+END
+MultiTouchMoveableXYPlaneWithPhysics.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchMoveableXYPlaneWithPhysics.java
+END
+MultiTouchScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchScale.java
+END
+MultiTouchMoveZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/784/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchMoveZ.java
+END
+MultiTouchRotateXY.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/784/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/threed/MultiTouchRotateXY.java
+END

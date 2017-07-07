@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl
+END
+lwjgl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl/lwjgl.jar
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl/LICENSE.txt
+END
+lwjgl_util_applet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl/lwjgl_util_applet.jar
+END
+lwjgl_util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl/lwjgl_util.jar
+END
+jinput.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/lwjgl/jinput.jar
+END

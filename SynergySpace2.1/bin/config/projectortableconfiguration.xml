@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:config xmlns:tns="http://tel.dur.ac.uk/xml/schemas/tableconfiguration"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://tel.dur.ac.uk/xml/schemas/tableconfiguration ./schemas/tableconfiguration.xsd ">
+	
+	<tns:options>
+		<tns:splashScreenResource>media/images/splashscreens/synergynet.png</tns:splashScreenResource>
+		<tns:splashScreenEnabled>false</tns:splashScreenEnabled>
+		<tns:mode>projector</tns:mode>
+	</tns:options>
+	
+	<tns:applications>
+		<tns:application configpath="synergynet/table/apps/mainmenu/synergynetapplication.xml" default="true" />
+		<tns:application configpath="synergynet/table/apps/splasher/synergynetapplication.xml" />
+		<tns:application configpath="synergynet/table/apps/mysteries/synergynetapplication.xml" />
+		<tns:application configpath="synergynet/table/apps/mathpadapp/synergynetapplication.xml" />
+	</tns:applications>
+	
+	<tns:services>
+		<tns:service
+			classname="synergynet.services.net.tablecomms.client.TableCommsClientService"
+			enabled="true">
+			<tns:depends>
+				<tns:service
+					classname="synergynet.services.net.netservicediscovery.NetworkServiceDiscoveryService" />
+			</tns:depends>
+		</tns:service>
+	</tns:services>
+</tns:config>

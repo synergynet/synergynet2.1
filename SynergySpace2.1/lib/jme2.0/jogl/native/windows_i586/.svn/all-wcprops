@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/windows_i586
+END
+jogl.dll
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/windows_i586/jogl.dll
+END
+gluegen-rt.dll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/windows_i586/gluegen-rt.dll
+END
+jogl_awt.dll
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/windows_i586/jogl_awt.dll
+END
+jogl_cg.dll
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/native/windows_i586/jogl_cg.dll
+END

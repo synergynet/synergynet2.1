@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector
+END
+SynchroniseProjectorData.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/SynchroniseProjectorData.java
+END
+SendDataToProjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/SendDataToProjector.java
+END
+ClearProjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/ClearProjector.java
+END
+ProjectorResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/ProjectorResponse.java
+END
+ReleaseProjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/689/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/ReleaseProjector.java
+END
+SearchProjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/689/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/projector/SearchProjector.java
+END

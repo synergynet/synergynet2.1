@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/834/trunk/SynergySpace2.1/src_synergynet/synergynet/services/networkflick/messages/configmessages
+END
+RegisterTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/601/trunk/SynergySpace2.1/src_synergynet/synergynet/services/networkflick/messages/configmessages/RegisterTableMessage.java
+END
+UnregisterTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/601/trunk/SynergySpace2.1/src_synergynet/synergynet/services/networkflick/messages/configmessages/UnregisterTableMessage.java
+END
+AnnounceTableListMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/834/trunk/SynergySpace2.1/src_synergynet/synergynet/services/networkflick/messages/configmessages/AnnounceTableListMessage.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl
+END
+gluegen-rt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/gluegen-rt.jar
+END
+LICENSE-JOGL-1.1.1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/LICENSE-JOGL-1.1.1.txt
+END
+CHANGELOG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/CHANGELOG.txt
+END
+jogl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/jogl.jar
+END
+COPYRIGHT.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jme2.0/jogl/COPYRIGHT.txt
+END

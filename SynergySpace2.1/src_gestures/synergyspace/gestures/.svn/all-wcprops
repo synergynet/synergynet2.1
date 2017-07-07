@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures
+END
+RectangleDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/RectangleDescriptor.java
+END
+GestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/GestureListener.java
+END
+demogestures.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/demogestures.xml
+END
+SynergySpaceGestureEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/SynergySpaceGestureEventHandler.java
+END
+CursorInputDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/CursorInputDevice.java
+END
+GestureSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/GestureSystem.java
+END
+InvalidGestureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/InvalidGestureEvent.java
+END
+ArrowDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/ArrowDescriptor.java
+END
+GestureDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/GestureDescriptor.java
+END
+TriangleDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/TriangleDescriptor.java
+END
+LineDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/LineDescriptor.java
+END
+iGestureProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/iGestureProcessor.java
+END
+rubineconfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/rubineconfiguration.xml
+END
+GestureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_gestures/synergyspace/gestures/GestureEvent.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/836/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/connections
+END
+ConnectionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/836/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/connections/ConnectionHandler.java
+END
+TCPConnectionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/connections/TCPConnectionHandler.java
+END
+UDPConnectionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/connections/UDPConnectionHandler.java
+END
+MessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/connections/MessageHandler.java
+END

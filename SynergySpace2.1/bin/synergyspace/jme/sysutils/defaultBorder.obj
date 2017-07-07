@@ -1,0 +1,25 @@
+# Blender3D v249 OBJ File: untitled.blend
+# www.blender3d.org
+o Border
+v 512 384 0
+v 512 -384 0
+v -512 -384 0
+v -512 384 0
+v -522 394 0
+v -522 -394 0
+v 522 -394 0
+v 522 394 0
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+usemtl (null)
+s 1
+f 1//1 4//2 5//2 8//1
+f 1//1 8//1 7//3 2//3
+f 2//3 7//3 6//4 3//4
+f 3//4 6//4 5//2 4//2
+# Rectangle1 -512 -384
+# Rectangle2 512 -384
+# Rectangle3 -512 384
+# Rectangle4 512 384

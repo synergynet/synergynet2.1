@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/frameworkmessages
+END
+RegisterTCP.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/frameworkmessages/RegisterTCP.java
+END
+RegisterUDP.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/frameworkmessages/RegisterUDP.java
+END
+FrameworkMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/frameworkmessages/FrameworkMessage.java
+END
+KeepAlive.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/frameworkmessages/KeepAlive.java
+END

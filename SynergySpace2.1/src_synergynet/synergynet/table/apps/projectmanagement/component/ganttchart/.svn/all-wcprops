@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1125/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1125/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/Menu.java
+END
+TasksDrawableContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/TasksDrawableContent.java
+END
+GanttChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1125/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/GanttChart.java
+END
+TimebarDrawableContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/TimebarDrawableContent.java
+END
+TaskRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1125/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/TaskRow.java
+END
+ScheduleDrawableContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/ScheduleDrawableContent.java
+END
+TaskCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1125/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/projectmanagement/component/ganttchart/TaskCollection.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/982/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages
+END
+LoadData.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/LoadData.java
+END
+SendDataTo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/SendDataTo.java
+END
+EnableBiSynchronisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/EnableBiSynchronisation.java
+END
+SwapTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/SwapTableMessage.java
+END
+SwapTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/SwapTable.java
+END
+BroadcastData.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/BroadcastData.java
+END
+RequireDataFrom.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/RequireDataFrom.java
+END
+BlockInteraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/BlockInteraction.java
+END
+EnableMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/EnableMenu.java
+END
+ClearTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/ClearTable.java
+END
+SynchroniseData.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkedcontentmanager/messages/SynchroniseData.java
+END

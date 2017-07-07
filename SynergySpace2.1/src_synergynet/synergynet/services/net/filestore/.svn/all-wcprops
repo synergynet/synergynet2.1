@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1078/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore
+END
+FileStoreClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/FileStoreClient.java
+END
+FileStoreServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/FileStoreServer.java
+END
+FileReceptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1078/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/filestore/FileReceptionHandler.java
+END

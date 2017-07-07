@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<project name="SynergyNet Web Distribution" default="main" basedir="..">
+	
+	<property name="dir.src" location="${basedir}/src" />
+	<property name="dir.src_synergynet" location="${basedir}/src_synergynet" />
+	<property name="dir.bin" location="${basedir}/bin" />
+	<property name="dir.lib" location="${basedir}/lib" />
+	<property name="dir.assets" location="${basedir}/assets" />
+	<property name="dir.build" location="${basedir}/build" />
+	<property name="dir.webfiles" location="${dir.build}/webfiles" />
+	
+	<!-- 
+		Requires addition of the project's bin directory to the ant classpath. To do this,
+		open Eclipse preferences, go to Ant -> Classpath and add folder. 
+	 -->
+	<taskdef name="synergynetdist" classname="synergynet.launcher.distbuilder.DistBuilder"/>
+	<taskdef name="optsmaker" classname="synergynet.launcher.distbuilder.CommandLineOptsMaker" />
+	
+	
+	<target name="clean">
+		<delete dir="${dir.webfiles}" />
+	</target>
+	
+	<target name="createdirs">
+		<mkdir dir="${dir.webfiles}" />
+	</target>
+	
+	<target name="createtops">
+		<!-- first replace in source tree -->
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.SynergyNetDesktop" outfile="${dir.src_synergynet}/synergynet/launcher/client/synergynet.opts" />
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.ConfigureSynergyNetRegistry" outfile="${dir.src_synergynet}/synergynet/launcher/client/registryeditor.opts" />
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.ConfigureSynergyNetRegistry" outfile="${dir.src_synergynet}/synergynet/launcher/client/pickdisplaymode.opts" arguments="modepicker"/>
+
+		<!-- now force to bin -->
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.SynergyNetDesktop" outfile="${dir.bin}/synergynet/launcher/client/synergynet.opts" />
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.ConfigureSynergyNetRegistry" outfile="${dir.bin}/synergynet/launcher/client/registryeditor.opts" />
+		<optsmaker libdir="${dir.lib}" classname="synergynet.table.ConfigureSynergyNetRegistry" outfile="${dir.bin}/synergynet/launcher/client/pickdisplaymode.opts" arguments="modepicker"/>
+	</target>
+	
+	<target name="createlauncherjar">
+		<property name="launcherjar" value="${dir.webfiles}/launcherjar.jar"/>
+		<jar file="${launcherjar}">
+			<fileset dir="${dir.bin}" includes="synergynet/launcher/**/*" />
+				<manifest>
+					<attribute name="Main-Class" value="synergynet.launcher.client.SynergyNetLauncher"/>
+				</manifest>
+		</jar>
+	</target>
+	
+	<target name="createsynergynetjar" depends="createtops">
+		<property name="synergynetjar" value="${dir.webfiles}/synergynet.jar"/>
+		
+		<jar file="${synergynetjar}">
+			<fileset dir="${dir.bin}"/>
+		</jar>
+	</target>
+	
+	<target name="copylibs">
+		<copy todir="${dir.webfiles}/lib">
+			<fileset dir="${dir.lib}" />
+		</copy>
+		<copy todir="${dir.webfiles}/assets">
+			<fileset dir="${dir.assets}" />
+		</copy>
+	</target>
+	
+	<target name="dobuild">
+		<synergynetdist sourcedir="${dir.webfiles}" outfile="${dir.webfiles}/dist.xml" />
+	</target>
+	
+	<target name="main" depends="createdirs,createsynergynetjar,createlauncherjar,copylibs,dobuild">
+	</target>
+</project>

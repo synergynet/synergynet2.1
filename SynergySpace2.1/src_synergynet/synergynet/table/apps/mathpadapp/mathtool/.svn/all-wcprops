@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1023/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool
+END
+MathTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1009/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/MathTool.java
+END
+GraphConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/778/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/GraphConfig.java
+END
+AssignmentHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/778/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/AssignmentHandler.java
+END
+MathToolInitialiser.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/MathToolInitialiser.java
+END
+ControlPanelListenerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/876/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/ControlPanelListenerImpl.java
+END
+MathToolControlPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/876/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/MathToolControlPanel.java
+END
+AnswerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1023/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/AnswerDialog.java
+END
+MathToolInitSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/778/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/MathToolInitSettings.java
+END
+LineWidthPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/876/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/LineWidthPanel.java
+END
+LoginDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/876/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/LoginDialog.java
+END
+ColorList.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/779/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/mathpadapp/mathtool/ColorList.java
+END

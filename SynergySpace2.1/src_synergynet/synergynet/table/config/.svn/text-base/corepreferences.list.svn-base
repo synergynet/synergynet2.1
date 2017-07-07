@@ -1,0 +1,9 @@
+synergynet.table.config.developer.DeveloperConfigPrefsItem
+synergynet.table.config.display.DisplayConfigPrefsItem
+synergynet.table.config.identity.IdentityConfigPrefsItem
+synergynet.table.config.table.TableConfigPrefsItem
+synergynet.table.config.apikeys.APIKeysConfigPrefsItem
+synergynet.table.config.network.NetworkConfigPrefsItem
+synergynet.table.config.server.ServerConfigPrefsItem
+synergynet.table.config.position.PositionConfigPrefsItem
+synergynet.table.config.logging.LoggingConfigPrefsItem

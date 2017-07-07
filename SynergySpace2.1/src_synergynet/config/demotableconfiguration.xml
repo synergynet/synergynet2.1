@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:config xmlns:tns="http://tel.dur.ac.uk/xml/schemas/tableconfiguration"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://tel.dur.ac.uk/xml/schemas/tableconfiguration ./schemas/tableconfiguration.xsd ">
+
+	<tns:options>
+		<tns:splashScreenResource>media/images/splashscreens/synergynet.png</tns:splashScreenResource>
+		<tns:splashScreenEnabled>false</tns:splashScreenEnabled>
+		<tns:mode>client</tns:mode>
+	</tns:options>
+
+	<!-- Please keep the list alphabetical and use enabled attribute to disable/enable -->
+	<tns:applications>
+	
+		<tns:application configpath="synergynet/table/apps/mainmenu/synergynetapplication.xml" default="true" />
+		<tns:application configpath="synergynet/table/apps/borderstudy/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/conceptmap/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/contentitemgallery/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/controlclient/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/diamondranking/synergynetapplication.xml"  enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/dissection/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/docviewer/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/dominos/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/geognetworkflick/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/lightbox/synergynetapplication.xml" enabled="true"/>		
+		<tns:application configpath="synergynet/table/apps/livingmaps/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/mapapp/synergynetapplication.xml"  enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/mathpadapp/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/mathpadtableportal/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/meteorstrike/synergynetapplication.xml"  enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/mt3dmaps/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/mysteries/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/mysteriestableportal/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/networkflick/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/networkpresenter/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/pong/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/rapidnetworking/synergynetapplication.xml"  enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/realgravity/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/remotecontrol/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/replay/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/researchpuzzle/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/sandbox/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/splasher/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/tablepositionsetup/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/teapots/synergynetapplication.xml" enabled="false"/>
+		<tns:application configpath="synergynet/table/apps/threeDButtonsExperiment/synergynetapplication.xml" enabled="false"/>	
+		<tns:application configpath="synergynet/table/apps/threeDInteraction/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/threeDPuzzle/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/threedmanipulation/synergynetapplication.xml" enabled="true"/>	
+		<tns:application configpath="synergynet/table/apps/twentyfourpoint/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/watertank/synergynetapplication.xml" enabled="true"/>		
+		<tns:application configpath="synergynet/table/apps/xmlpuzzle/synergynetapplication.xml" enabled="true"/>
+		
+	</tns:applications>
+</tns:config>

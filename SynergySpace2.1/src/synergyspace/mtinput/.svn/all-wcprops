@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1089/trunk/SynergySpace2.1/src/synergyspace/mtinput
+END
+IMultiTouchEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/mtinput/IMultiTouchEventListener.java
+END
+ClickDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/604/trunk/SynergySpace2.1/src/synergyspace/mtinput/ClickDetector.java
+END
+MultiTouchInputComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1084/trunk/SynergySpace2.1/src/synergyspace/mtinput/MultiTouchInputComponent.java
+END
+IMultiTouchInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1084/trunk/SynergySpace2.1/src/synergyspace/mtinput/IMultiTouchInputSource.java
+END
+IMultiTouchInputFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/mtinput/IMultiTouchInputFilter.java
+END
+RightClickDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/mtinput/RightClickDetector.java
+END
+LongHoldDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/659/trunk/SynergySpace2.1/src/synergyspace/mtinput/LongHoldDetector.java
+END

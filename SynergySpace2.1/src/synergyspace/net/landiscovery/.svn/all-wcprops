@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1001/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery
+END
+ServiceDiscoveryListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/ServiceDiscoveryListener.java
+END
+ServiceAnnounceSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/ServiceAnnounceSystem.java
+END
+ServiceDiscoverySystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/ServiceDiscoverySystem.java
+END
+ServiceSystemFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1001/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/ServiceSystemFactory.java
+END
+ServiceDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/ServiceDescriptor.java
+END

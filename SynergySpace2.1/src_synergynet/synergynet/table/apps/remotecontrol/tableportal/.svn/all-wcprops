@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1116/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal
+END
+GraphConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1017/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/GraphConfig.java
+END
+CullManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1003/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/CullManager.java
+END
+PortalNavigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1021/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/PortalNavigator.java
+END
+TablePortal.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1030/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/TablePortal.java
+END
+WorkspaceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/WorkspaceManager.java
+END
+ClipRectangleHud.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/966/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/ClipRectangleHud.java
+END
+CustomiseViewDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/CustomiseViewDialog.java
+END
+Radar.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1003/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/Radar.java
+END
+RadarCullManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/977/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/RadarCullManager.java
+END
+TableConnectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1001/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/TableConnectDialog.java
+END
+DisplayPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1116/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/DisplayPanel.java
+END
+TablePortalControlPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1022/trunk/SynergySpace2.1/src_synergynet/synergynet/table/apps/remotecontrol/tableportal/TablePortalControlPanel.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1112/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements
+END
+ParallelAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/ParallelAnimation.java
+END
+MoveInConcentricCircles.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1112/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/MoveInConcentricCircles.java
+END
+TestAnimationElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/TestAnimationElement.java
+END
+MoveInCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/568/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/MoveInCircle.java
+END
+Fader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/Fader.java
+END
+MoveInCircleInContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/566/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/MoveInCircleInContainer.java
+END
+ApplicationActivator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/707/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/ApplicationActivator.java
+END
+AnimationSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_synergynet/synergynet/table/animationsystem/animelements/AnimationSequence.java
+END

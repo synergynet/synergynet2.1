@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/syncmanager
+END
+MediaPlayerSyncManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/syncmanager/MediaPlayerSyncManager.java
+END
+SketchPadSyncManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/syncmanager/SketchPadSyncManager.java
+END
+OrthoRotateTranslateScaleSyncManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/syncmanager/OrthoRotateTranslateScaleSyncManager.java
+END
+SyncManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/syncmanager/SyncManager.java
+END

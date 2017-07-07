@@ -1,0 +1,71 @@
+10
+
+dir
+1125
+https://synergyspace.googlecode.com/svn/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/tablecomms/messages
+https://synergyspace.googlecode.com/svn
+
+
+
+2010-04-07T14:54:46.307300Z
+956
+iyadalagha
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4e04e178-4c47-0410-8dc8-bf9f09d16d9e
+
+TableMessage.java
+file
+
+
+
+
+2010-06-21T10:56:16.000000Z
+f742064a7e44f92af3a0d3a393c153f7
+2009-08-19T18:14:16.867170Z
+648
+iyadalagha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2102
+
+application
+dir
+
+control
+dir
+
+system
+dir
+

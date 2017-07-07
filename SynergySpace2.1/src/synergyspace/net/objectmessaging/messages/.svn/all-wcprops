@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/Message.java
+END
+TCPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/TCPMessage.java
+END
+UDPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/649/trunk/SynergySpace2.1/src/synergyspace/net/objectmessaging/messages/UDPMessage.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1020/trunk/SynergySpace2.1/src/synergyspace/mtinput/filters
+END
+SingleInputFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/mtinput/filters/SingleInputFilter.java
+END
+LoggingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1020/trunk/SynergySpace2.1/src/synergyspace/mtinput/filters/LoggingFilter.java
+END
+AveragingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/mtinput/filters/AveragingFilter.java
+END

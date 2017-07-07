@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1082/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod
+END
+OrthoBringToTop.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoBringToTop.java
+END
+IndependentChildOrthoCPRTS.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/819/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/IndependentChildOrthoCPRTS.java
+END
+ClipRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/839/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/ClipRegistry.java
+END
+SingleTouchRotateTranslate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/SingleTouchRotateTranslate.java
+END
+OrthoControlPointRotateTranslateScaleWithListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoControlPointRotateTranslateScaleWithListener.java
+END
+CursorEventDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/CursorEventDispatcher.java
+END
+OrthoMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/772/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoMove.java
+END
+TwoDQuadWithMultiTouchInteraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/TwoDQuadWithMultiTouchInteraction.java
+END
+ClipRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/839/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/ClipRegion.java
+END
+OrthoControlPointRotateTranslateScaleFix.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoControlPointRotateTranslateScaleFix.java
+END
+OrthoCursorEventDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoCursorEventDispatcher.java
+END
+OrthoControlPointRotateTranslateScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1082/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoControlPointRotateTranslateScale.java
+END
+OrthoSnap.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/755/trunk/SynergySpace2.1/src/synergyspace/jme/cursorsystem/elements/twod/OrthoSnap.java
+END

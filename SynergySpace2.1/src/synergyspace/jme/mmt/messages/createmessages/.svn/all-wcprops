@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/mmt/messages/createmessages
+END
+TransferredSpatialCreateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/mmt/messages/createmessages/TransferredSpatialCreateMessage.java
+END
+SpatialCreateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/mmt/messages/createmessages/SpatialCreateMessage.java
+END
+TransferredQuadWithImageCreateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/mmt/messages/createmessages/TransferredQuadWithImageCreateMessage.java
+END

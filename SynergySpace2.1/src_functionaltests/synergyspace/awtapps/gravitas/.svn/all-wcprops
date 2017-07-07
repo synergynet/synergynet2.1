@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas
+END
+Well.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/Well.java
+END
+Gravitas.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/Gravitas.java
+END
+GravitySystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/GravitySystem.java
+END
+ControlPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/ControlPanel.java
+END
+Drifter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/Drifter.java
+END
+Particle.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/Particle.java
+END
+ParticleSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/ParticleSystem.java
+END
+ShieldWall.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/ShieldWall.java
+END
+PressureWell.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/PressureWell.java
+END
+FixedWell.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/awtapps/gravitas/FixedWell.java
+END

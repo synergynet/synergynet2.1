@@ -1,0 +1,18 @@
+Guide for Building your own custom borders.
+
+ - Borders must be Wavefront .Obj files.
+ 
+ - When exporting from blender obj file only the following option should be selected: Edges, Materials, UVs, Normals and HQ.
+
+ - All vertices for the borders currently must have 0 in their z-axis values and will likely need their x and y values scaling up.
+
+ - Borders must use a containing rectangle of co-ordinates: (-522,-394), (-522, 394), (522, 394) & (522, -394)
+ 
+ - Custom shapes drawn must be within the limits: (-512,-384), (-512, 384), (512, 384) & (512, -384)
+ 
+ - A rectangle with the aspect ratio of the resolution used that fits inside the display without overlapping onto the border must have it's vertices define like so:
+	# Rectangle1 x y
+	# Rectangle2 x y
+	# Rectangle3 x y
+	# Rectangle4 x y
+   Where x and y are the co-ordinate values of the vertex

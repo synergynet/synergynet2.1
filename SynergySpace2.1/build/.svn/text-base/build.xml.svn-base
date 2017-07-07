@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE antbuild>
+<project name="jME SynergySpace" default="build-jars" basedir="..">
+    <description>
+	Build system for jME SynergySpace
+    </description>
+		
+	<property name="dir.src" location="${basedir}/src"/>
+	<property name="dir.bin" location="${basedir}/bin"/>
+	<property name="dir.lib" location="${basedir}/lib"/>
+	<property name="dir.build" location="${basedir}/build"/>
+	<property name="dir.ws" location="${dir.build}/ws"/>
+	<property name="dir.javadoc" location="${basedir}/docs"/>
+	<property name="file.mtinputlib" location="${dir.build}/mtinputlib.jar"/>
+
+	<property name="majorversion" value="0"/>
+	
+	<target name="build-jars" depends="build-jar" />
+
+	<target name="build-jar">
+		<property file="${dir.build}/build.number"/>
+    	<property name="build" value="${majorversion}.${build.number}"/>    	
+    	<property name="file.jar" location="${dir.build}/jmesynergyspace-${build}.jar"/>
+
+    	<jar basedir="${dir.bin}" destfile="${file.jar}">	
+    	</jar>		
+	</target>
+	
+	<!-- this target also increments the minor version number -->
+    <target name="build-version-jar" description="builds the jar file">
+    	<buildnumber file="${dir.build}/build.number"/>
+    	<property name="build" value="${majorversion}.${build.number}"/>    	
+    	<property name="file.jar" location="${dir.build}/jmesynergyspace-${build}.jar"/>
+
+    	<jar basedir="${dir.bin}" destfile="${file.jar}">	
+    	</jar>
+    </target>
+
+	<target name="create-javadoc">
+		<javadoc destdir="${dir.javadoc}">
+			<fileset dir="${dir.src}">
+				<include name="**/*"/>
+			</fileset>
+		</javadoc>
+	</target>
+	
+	<target name="create-mtinputlib">
+		<jar destfile="${file.mtinputlib}">
+			<fileset dir="${dir.bin}" includes="synergyspace/mtinput/**/*" />			
+		</jar>
+	</target>
+
+	<target name="clean">
+		<delete includeemptydirs="true">
+			<fileset dir="${dir.javadoc}" includes="**/*"/>
+			<fileset dir="${dir.build}" includes="**/*.jar"/>
+		</delete>
+	</target>
+	
+	<target name="wsdeploy">
+		<mkdir dir="${dir.ws}" />
+		<mkdir dir="${dir.ws}/lib" />
+		<copy todir="${dir.ws}/lib">
+		    <fileset dir="${dir.lib}"/>
+		</copy>
+
+		<copy file="${dir.build}/synergynet.jar" todir="${dir.ws}/lib" />
+		<copy file="${dir.build}/synergynet.jnlp" todir="${dir.ws}" />
+	</target>
+
+</project>

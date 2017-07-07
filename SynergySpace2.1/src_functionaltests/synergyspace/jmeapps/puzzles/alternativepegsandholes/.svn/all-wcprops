@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/798/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes
+END
+pic.svg
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/pic.svg
+END
+PiecesAligned.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/PiecesAligned.java
+END
+AltPegsAndHolesPuzzleApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/AltPegsAndHolesPuzzleApp.java
+END
+RandomLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/RandomLayout.java
+END
+SVGShapeGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/798/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/SVGShapeGenerator.java
+END
+shapes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/shapes.xml
+END
+beep.wav
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/beep.wav
+END
+brick.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/brick.png
+END
+ShapeGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/ShapeGenerator.java
+END
+TranslationMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/TranslationMatcher.java
+END
+ShapeMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_functionaltests/synergyspace/jmeapps/puzzles/alternativepegsandholes/ShapeMatcher.java
+END

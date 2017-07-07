@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items
+END
+Window.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1009/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/Window.java
+END
+LightImageLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/814/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/LightImageLabel.java
+END
+ContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1074/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ContentItem.java
+END
+ImageTextLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ImageTextLabel.java
+END
+BackgroundController.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/897/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/BackgroundController.java
+END
+DocViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/DocViewer.java
+END
+ObjShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1076/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ObjShape.java
+END
+TwoDShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/TwoDShape.java
+END
+TextLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/TextLabel.java
+END
+SketchPad.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1116/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/SketchPad.java
+END
+RoundImageLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundImageLabel.java
+END
+ThreeDContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/748/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ThreeDContentItem.java
+END
+PPTViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/PPTViewer.java
+END
+PDFViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1091/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/PDFViewer.java
+END
+ListContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/676/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ListContainer.java
+END
+RoundFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundFrame.java
+END
+RoundWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundWindow.java
+END
+ThreeDContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ThreeDContainer.java
+END
+HQPDFViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1091/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/HQPDFViewer.java
+END
+OrthoContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1029/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/OrthoContentItem.java
+END
+DropDownList.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/966/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/DropDownList.java
+END
+DrawableFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/DrawableFrame.java
+END
+Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/897/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/Frame.java
+END
+MathPad.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/779/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/MathPad.java
+END
+OrthoContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1091/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/OrthoContainer.java
+END
+Keyboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/931/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/Keyboard.java
+END
+LineItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/664/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/LineItem.java
+END
+QuadContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/QuadContentItem.java
+END
+MediaPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/MediaPlayer.java
+END
+SimpleButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/SimpleButton.java
+END
+SwingContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/995/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/SwingContainer.java
+END
+RoundContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/748/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundContentItem.java
+END
+VideoPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/VideoPlayer.java
+END
+MultiLineTextLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/MultiLineTextLabel.java
+END
+RoundTextLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundTextLabel.java
+END
+ControlBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/ControlBar.java
+END
+RoundListContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/RoundListContainer.java
+END

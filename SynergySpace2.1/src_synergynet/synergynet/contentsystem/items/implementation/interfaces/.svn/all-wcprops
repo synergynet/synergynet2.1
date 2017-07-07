@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces
+END
+IRoundListContainerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/657/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundListContainerImplementation.java
+END
+IRoundImageLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundImageLabelImplementation.java
+END
+ITextLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ITextLabelImplementation.java
+END
+ISketchPadImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1116/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ISketchPadImplementation.java
+END
+IPPTViewerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IPPTViewerImplementation.java
+END
+IThreeDContentItemImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/656/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IThreeDContentItemImplementation.java
+END
+ILineImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ILineImplementation.java
+END
+IPDFViewerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/945/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IPDFViewerImplementation.java
+END
+ISimpleButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ISimpleButton.java
+END
+IListContainerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/747/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IListContainerImplementation.java
+END
+IWindowImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/747/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IWindowImplementation.java
+END
+IImageTextLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IImageTextLabelImplementation.java
+END
+IRoundWindowImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundWindowImplementation.java
+END
+IBackgroundControllerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IBackgroundControllerImplementation.java
+END
+IThreeDContainerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/656/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IThreeDContainerImplementation.java
+END
+IRoundFrameImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundFrameImplementation.java
+END
+IDrawableFrameImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1124/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IDrawableFrameImplementation.java
+END
+IFrameImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/897/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IFrameImplementation.java
+END
+IMathPadImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/767/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IMathPadImplementation.java
+END
+IOrthoContentItemImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1011/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IOrthoContentItemImplementation.java
+END
+IMediaPlayerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/934/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IMediaPlayerImplementation.java
+END
+IQuadContentItemImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IQuadContentItemImplementation.java
+END
+IDropDownListImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/764/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IDropDownListImplementation.java
+END
+IVideoPlayerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/838/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IVideoPlayerImplementation.java
+END
+IOrthoContainerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IOrthoContainerImplementation.java
+END
+IHqPDFViewerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1091/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IHqPDFViewerImplementation.java
+END
+IKeyboardImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/931/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IKeyboardImplementation.java
+END
+ISwingContainerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/995/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ISwingContainerImplementation.java
+END
+IRoundContentItemImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundContentItemImplementation.java
+END
+ILightImageLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/ILightImageLabelImplementation.java
+END
+IContentItemImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1074/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IContentItemImplementation.java
+END
+IMultiLineTextLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IMultiLineTextLabelImplementation.java
+END
+IRoundTextLabelImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IRoundTextLabelImplementation.java
+END
+IDocViewerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/596/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IDocViewerImplementation.java
+END
+IControlBarImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/986/trunk/SynergySpace2.1/src_synergynet/synergynet/contentsystem/items/implementation/interfaces/IControlBarImplementation.java
+END

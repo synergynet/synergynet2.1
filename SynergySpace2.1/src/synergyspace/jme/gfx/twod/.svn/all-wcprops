@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1091/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod
+END
+FPSNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/FPSNode.java
+END
+ImageQuadFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/ImageQuadFactory.java
+END
+PolygonMesh.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/PolygonMesh.java
+END
+Grid.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/Grid.java
+END
+DrawableSpatialImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/556/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/DrawableSpatialImage.java
+END
+MTText.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/878/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/MTText.java
+END
+VideoQuad.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/551/trunk/SynergySpace2.1/src/synergyspace/jme/gfx/twod/VideoQuad.java
+END

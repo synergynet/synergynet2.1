@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1
+END
+libodejava.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/libodejava.jnilib
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/license.txt
+END
+odejava-jni.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/odejava-jni.jar
+END
+odejava.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/odejava.dll
+END
+vecmath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/vecmath.jar
+END
+jme-physics.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/jme-physics.jar
+END
+jbullet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/jbullet.jar
+END
+libodejava.so
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/libodejava.so
+END
+stack-alloc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/stack-alloc.jar
+END
+libodejava64.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/551/trunk/SynergySpace2.1/lib/jmephysics-2.1/libodejava64.so
+END

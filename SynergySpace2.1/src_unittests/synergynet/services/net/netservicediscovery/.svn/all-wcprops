@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_unittests/synergynet/services/net/netservicediscovery
+END
+NetworkContentServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_unittests/synergynet/services/net/netservicediscovery/NetworkContentServerTest.java
+END
+TestServiceStartup.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_unittests/synergynet/services/net/netservicediscovery/TestServiceStartup.java
+END
+NetworkContentClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_unittests/synergynet/services/net/netservicediscovery/NetworkContentClientTest.java
+END
+TestNetServiceDiscovery.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src_unittests/synergynet/services/net/netservicediscovery/TestNetServiceDiscovery.java
+END

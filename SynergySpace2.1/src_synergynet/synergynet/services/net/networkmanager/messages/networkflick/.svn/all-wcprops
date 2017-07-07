@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/982/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick
+END
+EnableFlickMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/935/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/EnableFlickMessage.java
+END
+RegisterTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/935/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/RegisterTableMessage.java
+END
+NonTransferableContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/935/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/NonTransferableContentItem.java
+END
+TransferableContentItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/982/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/TransferableContentItem.java
+END
+UnregisterTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/935/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/UnregisterTableMessage.java
+END
+AnnounceTableMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/935/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/networkmanager/messages/networkflick/AnnounceTableMessage.java
+END

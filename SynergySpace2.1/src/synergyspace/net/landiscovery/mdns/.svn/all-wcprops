@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/mdns
+END
+MDNSServiceAnnouncer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/mdns/MDNSServiceAnnouncer.java
+END
+MDNSServiceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/736/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/mdns/MDNSServiceHelper.java
+END
+MDNSServiceDiscovery.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/803/trunk/SynergySpace2.1/src/synergyspace/net/landiscovery/mdns/MDNSServiceDiscovery.java
+END

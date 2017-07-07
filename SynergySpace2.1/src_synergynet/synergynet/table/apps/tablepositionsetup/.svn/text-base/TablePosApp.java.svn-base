@@ -1,0 +1,747 @@
+/*
+ * Copyright (c) 2008 University of Durham, England
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ * * Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ *
+ * * Redistributions in binary form must reproduce the above copyright
+ *   notice, this list of conditions and the following disclaimer in the
+ *   documentation and/or other materials provided with the distribution.
+ *
+ * * Neither the name of 'SynergySpace' nor the names of its contributors
+ *   may be used to endorse or promote products derived from this software
+ *   without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+package synergynet.table.apps.tablepositionsetup;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.geom.Point2D;
+import java.text.DecimalFormat;
+import java.util.prefs.Preferences;
+
+import com.jme.math.FastMath;
+import com.jme.math.Vector3f;
+import com.jme.system.DisplaySystem;
+
+import synergynet.contentsystem.ContentSystem;
+import synergynet.contentsystem.items.ContentItem;
+import synergynet.contentsystem.items.LineItem;
+import synergynet.contentsystem.items.RoundImageLabel;
+import synergynet.contentsystem.items.TextLabel;
+import synergynet.contentsystem.items.listener.ItemListener;
+import synergynet.contentsystem.items.utils.Location;
+import synergynet.table.SynergyNetAppUtils;
+import synergynet.table.appregistry.ApplicationInfo;
+import synergynet.table.appregistry.menucontrol.HoldBottomLeftAndTopRight;
+import synergynet.table.apps.DefaultSynergyNetApp;
+import synergynet.table.config.ConfigurationSystem;
+import synergynet.table.config.position.PositionConfigPrefsItem;
+
+public class TablePosApp extends DefaultSynergyNetApp {
+
+	private float referenceDistance, tableX, tableY, tableOrientation, tableWidth = 0f;
+	private final Preferences prefs = ConfigurationSystem.getPreferences(PositionConfigPrefsItem.class);;
+	private int stage = 0;
+	private boolean quit, timeToQuit = false;
+	private int mode = 0;
+
+	public final static int MAX_MARKER_DISTANCE = 10;
+	public final static int MAX_TABLE_WIDTH = 2;
+
+	private RoundImageLabel circle = null;
+	private TextLabel confirmButton, instructions, manualButton, aimButton, saveButton, saveText, setupButton, quitButton = null;
+	private LineItem lineOne, lineTwo = null;
+	private Slider angleSlider = null;
+	private Dial widthDial, referenceDistanceDial = null;
+	private Stepper stepperX, stepperY = null;
+
+	public TablePosApp(ApplicationInfo info) {
+		super(info);
+	}
+
+	private ContentSystem contentSystem;
+
+	@Override
+	public void addContent() {
+		SynergyNetAppUtils.addTableOverlay(this);
+		setMenuController(new HoldBottomLeftAndTopRight());
+
+		contentSystem = ContentSystem.getContentSystemForSynergyNetApp(this);
+	}
+
+	@Override
+	public void onActivate() {
+		
+		setDefaultSteadfastLimit(1);
+				
+		stage = 0;
+		quit = false;
+		timeToQuit = false;
+		contentSystem.removeAllContentItems();
+
+		instructions = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		instructions.setBackgroundColour(Color.black);
+		instructions.setBorderSize(0);
+		instructions.setTextColour(Color.white);
+		instructions.setText("Choose action:");
+		instructions.setFont(new Font("Arial", Font.PLAIN,20));
+		instructions.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				(DisplaySystem.getDisplaySystem().getRenderer().getHeight()/8)*7);
+		instructions.setRotateTranslateScalable(false);
+		
+		setupButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		setupButton.setBackgroundColour(Color.black);
+		setupButton.setBorderColour(Color.white);
+		setupButton.setTextColour(Color.white);
+		setupButton.setText(" Set table information ");
+		setupButton.setFont(new Font("Arial", Font.ITALIC,20));
+		setupButton.setRotateTranslateScalable(false);
+		setupButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {
+				mode = 0;
+				
+				addConfirmButton();
+				
+				aimButton.setVisible(false, true);
+				manualButton.setVisible(false, true);
+				setupButton.setVisible(false,true);
+				quitButton.setVisible(false, true);
+				
+				confirmButton.setText(" Back to Menu ");
+				
+				instructions.setText("Adjust the dials to represent current display values");
+				
+				tableWidth = Float.parseFloat(prefs.get(PositionConfigPrefsItem.TABLE_WIDTH, "0"));
+				referenceDistance = Float.parseFloat(prefs.get(PositionConfigPrefsItem.REFERENCE_DISTANCE, "0"));
+				
+				
+				TextLabel widthText = (TextLabel)contentSystem.createContentItem(TextLabel.class);
+				widthText.setBackgroundColour(Color.black);
+				widthText.setBorderSize(0);
+				widthText.setTextColour(Color.white);
+				widthText.setText("            Display width = ");
+				widthText.setFont(new Font("Arial", Font.PLAIN,20));
+				widthText.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/4,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3*2);
+				widthText.setRotateTranslateScalable(false);
+				
+				widthDial = new Dial(contentSystem, DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2, DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3*2,
+						70, 0.5f, MAX_TABLE_WIDTH, "m");
+				widthDial.setValue(tableWidth);
+				widthDial.addPrecisionSlider(0.5f);
+				widthDial.setLowerBound(0);
+				
+				TextLabel referenceDistanceTextOne = (TextLabel)contentSystem.createContentItem(TextLabel.class);
+				referenceDistanceTextOne.setBackgroundColour(Color.black);
+				referenceDistanceTextOne.setBorderSize(0);
+				referenceDistanceTextOne.setTextColour(Color.white);
+				referenceDistanceTextOne.setText("Distance between      ");
+				referenceDistanceTextOne.setFont(new Font("Arial", Font.PLAIN,20));
+				referenceDistanceTextOne.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/4,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3 + referenceDistanceTextOne.getHeight()/2);
+				referenceDistanceTextOne.setRotateTranslateScalable(false);
+				
+				TextLabel referenceDistanceTextTwo = (TextLabel)contentSystem.createContentItem(TextLabel.class);
+				referenceDistanceTextTwo.setBackgroundColour(Color.black);
+				referenceDistanceTextTwo.setBorderSize(0);
+				referenceDistanceTextTwo.setTextColour(Color.white);
+				referenceDistanceTextTwo.setText("reference points = ");
+				referenceDistanceTextTwo.setFont(new Font("Arial", Font.PLAIN,20));
+				referenceDistanceTextTwo.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/4,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3 - referenceDistanceTextTwo.getHeight()/2);
+				referenceDistanceTextTwo.setRotateTranslateScalable(false);
+				
+				referenceDistanceDial = new Dial(contentSystem, DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2, DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3,
+						70, 5, MAX_MARKER_DISTANCE, "m");
+				referenceDistanceDial.setValue(Float.parseFloat(prefs.get(PositionConfigPrefsItem.REFERENCE_DISTANCE, "0")));
+				referenceDistanceDial.addPrecisionSlider(1);
+				referenceDistanceDial.setLowerBound(0);
+				
+				
+				saveText = (TextLabel)contentSystem.createContentItem(TextLabel.class);
+				saveText.setBackgroundColour(Color.black);
+				saveText.setBorderSize(0);
+				saveText.setTextColour(Color.green);
+				saveText.setText("");
+				saveText.setFont(new Font("Arial", Font.ITALIC,20));
+				saveText.setRotateTranslateScalable(false);
+
+				setDefaultSteadfastLimit(1);
+				
+				saveButton = (TextLabel)contentSystem.createContentItem(TextLabel.class);
+				saveButton.setBackgroundColour(Color.black);
+				saveButton.setBorderColour(Color.white);
+				saveButton.setTextColour(Color.white);
+				saveButton.setText("Save");
+				saveButton.setFont(new Font("Arial", Font.PLAIN,35));
+				saveButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/8*7,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2);
+				saveButton.setRotateTranslateScalable(false);
+				saveButton.addItemListener(new ItemListener(){
+
+					@Override
+					public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+					@Override
+					public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {
+						saveDisplayPrefs();
+					}
+
+					@Override
+					public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+					@Override
+					public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+					@Override
+					public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+					@Override
+					public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {}
+
+					@Override
+					public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+				});
+
+				saveText.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/8*7,
+						(saveButton.getLocation().y - saveButton.getHeight()/2 - saveText.getHeight()));
+							
+				timeToQuit = true;
+				
+				setDefaultSteadfastLimit(0);
+				
+			}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+
+		manualButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		manualButton.setBackgroundColour(Color.black);
+		manualButton.setBorderColour(Color.white);
+		manualButton.setTextColour(Color.white);
+		manualButton.setText("Enter table position values directly");
+		manualButton.setFont(new Font("Arial", Font.PLAIN,20));
+		manualButton.setRotateTranslateScalable(false);
+		manualButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {
+				mode = 1;
+				
+				addConfirmButton();
+				
+				instructions.setText("Adjust the values to represent display position values");
+				
+				tableWidth = Float.parseFloat(prefs.get(PositionConfigPrefsItem.TABLE_WIDTH, "0"));
+				
+				tableX = Float.parseFloat(prefs.get(PositionConfigPrefsItem.PREFS_LOCATION_X, "0"));
+				tableY = Float.parseFloat(prefs.get(PositionConfigPrefsItem.PREFS_LOCATION_Y, "0"));			
+								
+				stepperX = new Stepper(contentSystem, DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/10*7, toMeterValue(tableX), 1f, "Table position x = ","", "m");
+				stepperY = new Stepper(contentSystem, DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/10*5, toMeterValue(tableY), 1f, "Table position y = ","", "m");
+							
+				
+				angleSlider = new Slider(contentSystem, DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2, DisplaySystem.getDisplaySystem().getRenderer().getHeight()/10*3,
+						DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2, 40, 360, 0, "Table angle = ", " degrees");
+				angleSlider.setValue(Float.parseFloat(prefs.get(PositionConfigPrefsItem.PREFS_ANGLE, "0")));
+
+				manualButton.setVisible(false, true);
+				aimButton.setVisible(false, true);
+				setupButton.setVisible(false,true);
+				quitButton.setVisible(false, true);
+			}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+
+		aimButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		aimButton.setBackgroundColour(Color.black);
+		aimButton.setBorderColour(Color.white);
+		aimButton.setTextColour(Color.white);
+		aimButton.setText(" Aim at reference points to set table location ");
+		aimButton.setFont(new Font("Arial", Font.PLAIN,20));
+		aimButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				(DisplaySystem.getDisplaySystem().getRenderer().getHeight()/8) * 3);
+		aimButton.setRotateTranslateScalable(false);
+		aimButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {
+				mode = 2;
+				referenceDistance = Float.parseFloat(prefs.get(PositionConfigPrefsItem.REFERENCE_DISTANCE, "0"));
+				tableWidth = Float.parseFloat(prefs.get(PositionConfigPrefsItem.TABLE_WIDTH, "0"));
+				instructions.setText("Drag the arrow to point in the 'North' direction.");
+				Location loc = new Location(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+						DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2, 0);
+				addCircle();
+				lineOne = (LineItem)contentSystem.createContentItem(LineItem.class);
+				lineOne.setSourceLocation(loc);
+				lineOne.setTargetLocation(loc);
+				lineOne.setArrowMode(1);
+				lineOne.setAsTopObject();
+				addConfirmButton();
+				aimButton.setVisible(false, true);
+				manualButton.setVisible(false, true);
+				setupButton.setVisible(false,true);
+				quitButton.setVisible(false, true);
+			}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+		
+		manualButton.setAutoFit(false);
+		manualButton.setWidth(aimButton.getWidth());
+		manualButton.setHeight(aimButton.getHeight());
+		manualButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				aimButton.getLocation().y + (aimButton.getHeight()*2));
+		setupButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				manualButton.getLocation().y + (manualButton.getHeight()*3));
+		
+		quitButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		quitButton.setBackgroundColour(Color.black);
+		quitButton.setBorderColour(Color.white);
+		quitButton.setTextColour(Color.white);
+		quitButton.setText(" Quit ");
+		quitButton.setFont(new Font("Arial", Font.ITALIC,20));
+		quitButton.setRotateTranslateScalable(false);
+		quitButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {
+				exitApp();
+			}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+		
+		quitButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				(DisplaySystem.getDisplaySystem().getRenderer().getHeight()/8) * 1);
+		
+		setBorderAdaptationScaleMin(0.6f);
+		
+	}
+
+	private void addConfirmButton() {
+		
+		setDefaultSteadfastLimit(1);
+		confirmButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		confirmButton.setBackgroundColour(Color.black);
+		confirmButton.setBorderColour(Color.white);
+		confirmButton.setTextColour(Color.white);
+		confirmButton.setText("Confirm");
+		confirmButton.setFont(new Font("Arial", Font.PLAIN,40));
+		confirmButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				DisplaySystem.getDisplaySystem().getRenderer().getHeight()/8);
+		confirmButton.setRotateTranslateScalable(false);
+		confirmButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {
+				if (timeToQuit){
+					quit = true;
+				}
+				confirmClicked();
+			}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+
+		setDefaultSteadfastLimit(0);
+		
+	}
+
+	private void confirmClicked(){
+
+		Location loc = new Location(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2, 0);
+		if (mode == 2){
+			switch (stage){
+			case 0:
+				if (!lineOne.getSourceLocation().equals(lineOne.getTargetLocation())){
+					instructions.setText("Drag the arrows to point towards to the two markers.");
+					tableOrientation = angleFromLocalNorth(lineOne.getTargetLocation().x, lineOne.getTargetLocation().y);
+					lineOne.setSourceLocation(loc);
+					lineOne.setTargetLocation(loc);
+					lineTwo = (LineItem)this.contentSystem.createContentItem(LineItem.class);
+					lineTwo.setSourceLocation(loc);
+					lineTwo.setTargetLocation(loc);
+					lineTwo.setArrowMode(1);
+					lineTwo.setAsTopObject();
+					stage++;
+				}
+				break;
+			case 1:
+				if (!lineOne.getSourceLocation().equals(lineOne.getTargetLocation()) && !lineTwo.getSourceLocation().equals(lineTwo.getTargetLocation())){
+					calculatePosition(lineOne.getTargetLocation().x, lineOne.getTargetLocation().y,	lineTwo.getTargetLocation().x, lineTwo.getTargetLocation().y);
+					tableOrientation *= FastMath.RAD_TO_DEG;
+					instructions.setText("Table Co-ordinate = (" + new DecimalFormat("0.##").format((float)tableX) + "m, "
+							+ new DecimalFormat("0.##").format((float)tableY) + "m)\t Table Orientation = " + new DecimalFormat("0.##").format((float)tableOrientation) + " degrees");
+					addSaveButton();
+					confirmButton.setText("Back to Menu");
+					timeToQuit = true;
+					break;
+				}
+			}
+		}else if (mode == 1){
+				tableX = stepperX.getValue();
+				tableY = stepperY.getValue();
+				tableOrientation = angleSlider.getValue();
+				instructions.setText("Table Co-ordinate = (" + new DecimalFormat("0.##").format((float)tableX) + "m, "
+						+ new DecimalFormat("0.##").format((float)tableY) + "m)\t Table Orientation = " + new DecimalFormat("0.##").format((float)tableOrientation) + " degrees");
+				addSaveButton();
+				confirmButton.setText("Back to Menu");
+				timeToQuit = true;
+		}
+	}
+
+
+	private void addCircle() {
+		circle = (RoundImageLabel)this.contentSystem.createContentItem(RoundImageLabel.class);
+		circle.setAutoFit(false);
+		circle.setBackgroundColour(Color.black);
+		circle.setRadius(DisplaySystem.getDisplaySystem().getRenderer().getHeight()/4);
+		circle.setRotateTranslateScalable(false);
+		circle.setBringToTopable(false);
+		circle.removeBringToTopListeners();
+		circle.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2);
+		circle.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {
+				if (circle.contains(new Point2D.Float(x * DisplaySystem.getDisplaySystem().getRenderer().getWidth(), y * DisplaySystem.getDisplaySystem().getRenderer().getHeight()))){
+					circleModified(x, y);
+				}
+			}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {
+				circleModified(x, y);
+			}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {
+				if (count == 0){
+					count++;
+				}else if (count == 1){
+					count++;
+				}
+			}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+		count = 0;
+
+	}
+
+	int count = 0;
+
+	private void circleModified(float x, float y){
+		x = x * DisplaySystem.getDisplaySystem().getRenderer().getWidth();
+		y = y * DisplaySystem.getDisplaySystem().getRenderer().getHeight();
+		switch (stage){
+		case 0:
+			if (lineOne != null){
+				lineOne.setTargetLocation(new Location(x, y, 0));
+			}
+			break;
+		case 1:
+			if (lineOne != null && lineTwo != null){
+				if (count == 0){
+					lineOne.setTargetLocation(new Location(x, y, 0));
+				}else if (count == 1){
+					lineTwo.setTargetLocation(new Location(x, y, 0));
+				}else{
+					Vector3f touchVec = new Vector3f(x, y, 0);
+					Vector3f lineOneVec = new Vector3f(lineOne.getTargetLocation().x, lineOne.getTargetLocation().y, 0);
+					Vector3f lineTwoVec = new Vector3f(lineTwo.getTargetLocation().x, lineTwo.getTargetLocation().y, 0);
+					if (touchVec.distance(lineOneVec) <= touchVec.distance(lineTwoVec)){
+						lineOne.setTargetLocation(new Location(x, y, 0));
+					}else{
+						lineTwo.setTargetLocation(new Location(x, y, 0));
+					}
+				}
+			}
+			break;
+		}
+		if(lineOne != null)lineOne.setAsTopObject();
+		if(lineTwo != null)lineTwo.setAsTopObject();
+	}
+
+	@Override
+		protected void stateUpdate(float tpf) {
+			super.stateUpdate(tpf);
+			if(contentSystem != null) contentSystem.update(tpf);
+			if (quit){
+				onActivate();
+			}
+			if (stage == 0 && mode == 1){
+				if (stepperX != null){
+					stepperX.update(tpf);
+				}
+				if (stepperY != null){
+					stepperY.update(tpf);
+				}
+			}
+		}
+
+	private void calculatePosition(float x1, float y1, float x2, float y2) {
+
+		float north = (FastMath.RAD_TO_DEG * tableOrientation) + 360;
+		float lineA = angleFromLocalNorth(x1, y1);
+		lineA = (FastMath.RAD_TO_DEG * lineA) + 360;
+		float lineB = angleFromLocalNorth(x2, y2);
+		lineB = (FastMath.RAD_TO_DEG * lineB) + 360;
+
+		float p = 0f;
+		float C = 0f;
+
+		if (north - lineA < north - lineB){
+			p = north - lineA;
+			C = lineA - lineB;
+		}else{
+			p = north - lineB;
+			C = lineB - lineA;
+		}
+
+		C *= FastMath.DEG_TO_RAD;
+		p *= FastMath.DEG_TO_RAD;
+
+		float q = (FastMath.DEG_TO_RAD * 90) - p;
+		float B = (FastMath.DEG_TO_RAD * 90) - q;
+		float A = (FastMath.DEG_TO_RAD * 180) - C - B;
+		float f = (FastMath.DEG_TO_RAD * 90) - A;
+		float e = FastMath.sin(B) * (referenceDistance/FastMath.sin(C));
+
+		tableY = FastMath.sin(f) * (e/FastMath.sin(FastMath.DEG_TO_RAD * 90));
+		tableX = FastMath.sin(A) * (e/FastMath.sin(FastMath.DEG_TO_RAD * 90));
+				
+	}
+
+	private float angleFromLocalNorth(float x, float y) {
+		x -=  DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2;
+		y -= DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2;
+		float angle = 0f;
+		if (x >= 0 && y >= 0){
+			angle = FastMath.atan(x/y);
+		}else if (x >= 0 && y < 0){
+			angle = FastMath.atan((-y)/x) + (90 * FastMath.DEG_TO_RAD);
+		}else if (x < 0 && y < 0){
+			angle = FastMath.atan((-x)/(-y)) + (180 * FastMath.DEG_TO_RAD);
+		}else if (x < 0 && y >= 0){
+			angle = FastMath.atan(y/(-x)) + (270 * FastMath.DEG_TO_RAD);
+		}
+		return angle;
+	}
+
+	private void addSaveButton(){
+		setDefaultSteadfastLimit(1);
+		
+		if (mode == 2){
+			circle.setVisible(false, true);
+			lineOne.setVisible(false, true);
+			lineTwo.setVisible(false, true);
+		}else{
+			stepperX.destroyDial();
+			stepperY.destroyDial();
+			angleSlider.destroySlider();
+		}
+
+		saveText = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		saveText.setBackgroundColour(Color.black);
+		saveText.setBorderSize(0);
+		saveText.setTextColour(Color.green);
+		saveText.setText("");
+		saveText.setFont(new Font("Arial", Font.ITALIC,20));
+		saveText.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				(DisplaySystem.getDisplaySystem().getRenderer().getHeight()/3));
+		saveText.setRotateTranslateScalable(false);
+
+		saveButton = (TextLabel)this.contentSystem.createContentItem(TextLabel.class);
+		saveButton.setBackgroundColour(Color.black);
+		saveButton.setBorderColour(Color.white);
+		saveButton.setTextColour(Color.white);
+		saveButton.setText("Save");
+		saveButton.setFont(new Font("Arial", Font.PLAIN,40));
+		saveButton.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				DisplaySystem.getDisplaySystem().getRenderer().getHeight()/2);
+		saveButton.setRotateTranslateScalable(false);
+		saveButton.addItemListener(new ItemListener(){
+
+			@Override
+			public void cursorChanged(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorClicked(ContentItem item, long id, float x, float y, float pressure) {
+				savePositionPrefs();
+			}
+
+			@Override
+			public void cursorDoubleClicked(ContentItem item, long id, float x,	float y, float pressure) {}
+
+			@Override
+			public void cursorLongHeld(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorPressed(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorReleased(ContentItem item, long id, float x, float y, float pressure) {}
+
+			@Override
+			public void cursorRightClicked(ContentItem item, long id, float x, float y, float pressure) {}
+		});
+
+		saveText.setLocation(DisplaySystem.getDisplaySystem().getRenderer().getWidth()/2,
+				(saveButton.getLocation().y - saveButton.getHeight()/2 - saveText.getHeight()));
+		setDefaultSteadfastLimit(0);
+	}
+
+	private void saveDisplayPrefs() {
+		saveText.setVisible(true);
+		saveText.setText("Values saved");
+		new Thread(){public void run(){
+			try {sleep(2500);} catch (Exception e) {}
+			saveText.setVisible(false);
+		}}.start();
+		prefs.putFloat(PositionConfigPrefsItem.TABLE_WIDTH, widthDial.getValue());
+		prefs.putFloat(PositionConfigPrefsItem.REFERENCE_DISTANCE, referenceDistanceDial.getValue());
+		
+	}
+	
+	private void savePositionPrefs(){
+		saveText.setVisible(true);
+		saveText.setText("Display position values saved");
+		new Thread(){public void run(){
+			try {sleep(2500);} catch (Exception e) {}
+			saveText.setVisible(false);
+		}}.start();
+		prefs.putInt(PositionConfigPrefsItem.PREFS_LOCATION_X, toPixelValue(tableX));
+		prefs.putInt(PositionConfigPrefsItem.PREFS_LOCATION_Y, toPixelValue(tableY));
+		prefs.putFloat(PositionConfigPrefsItem.PREFS_ANGLE, tableOrientation);
+	}
+
+	private int toPixelValue(float a) {
+		a /= tableWidth/DisplaySystem.getDisplaySystem().getRenderer().getWidth();
+		return (int)a;
+	}
+
+	private float toMeterValue(float p) {
+		float m = p * (tableWidth/DisplaySystem.getDisplaySystem().getRenderer().getWidth());
+		return m;
+	}
+
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/localpresence
+END
+TableIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1063/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/localpresence/TableIdentity.java
+END
+LocalPresenceDetectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/localpresence/LocalPresenceDetectionService.java
+END
+LocalPresenceAnnouncerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1077/trunk/SynergySpace2.1/src_synergynet/synergynet/services/net/localpresence/LocalPresenceAnnouncerService.java
+END
