@@ -45,7 +45,7 @@
 		<tns:application configpath="synergynet/table/apps/teapots/synergynetapplication.xml" enabled="false"/>
 		<tns:application configpath="synergynet/table/apps/threeDButtonsExperiment/synergynetapplication.xml" enabled="false"/>	
 		<tns:application configpath="synergynet/table/apps/threeDInteraction/synergynetapplication.xml" enabled="true"/>
-		<tns:application configpath="synergynet/table/apps/threeDPuzzle/synergynetapplication.xml" enabled="true"/>
+		<tns:application configpath="synergynet/table/apps/threedpuzzle/synergynetapplication.xml" enabled="true"/>
 		<tns:application configpath="synergynet/table/apps/threedmanipulation/synergynetapplication.xml" enabled="true"/>	
 		<tns:application configpath="synergynet/table/apps/twentyfourpoint/synergynetapplication.xml" enabled="true"/>
 		<tns:application configpath="synergynet/table/apps/watertank/synergynetapplication.xml" enabled="true"/>		

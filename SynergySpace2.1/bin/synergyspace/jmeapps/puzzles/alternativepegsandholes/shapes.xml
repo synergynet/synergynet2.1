@@ -1,8 +1,0 @@
-<!DOCTYPE shapes>
-<Puzzle>
-	<shape>circle</shape>
-	<shape>square</shape>
-	<shape>rectangle</shape>
-	<shape>oval</shape>
-	<shape>triangle</shape>
-</Puzzle>
